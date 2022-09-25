@@ -114,7 +114,7 @@ def convert(xml_files, json_file):
                 "area": o_width * o_height,
                 "iscrowd": 0,
                 "image_id": image_id,
-                "bbox": [xmin, ymin, o_width, o_height],
+                "bbox": [xmin, ymin, xmax, ymax],
                 "category_id": category_id,
                 "id": bnd_id,
                 "ignore": 0,
